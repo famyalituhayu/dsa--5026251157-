@@ -21,7 +21,7 @@ public class Main {
         } else {
             job = new ColourPrint(id, pages);
         }
-
+        
         JobList.add(job);
    }
 
@@ -36,9 +36,3 @@ public class Main {
 
 
 }
-
-
-
-
-
-
