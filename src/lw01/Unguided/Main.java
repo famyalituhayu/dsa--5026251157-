@@ -23,7 +23,7 @@ public class Main {
             rental = new ProjectorRental(id, days);
         }
         scanner.close();
-   } catch (FileNotFoundException e) {
+    } catch (FileNotFoundException e) {
         System.out.println("File rentals.txt tidak ditemukan!");
     }
 }
