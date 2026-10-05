@@ -14,7 +14,6 @@ public class Main {
         List<String> checkResults = new ArrayList<>();
         int rejected = 0;
 
-        // Cara lebih aman: cari file di folder yang sama dengan Main.class
         Scanner scanner = new Scanner(
             new File(Main.class.getResource("enrollment.txt").toURI())
         );
@@ -71,8 +70,7 @@ public class Main {
             }
         }
         scanner.close();
-
-        // ===== Output =====
+        
         System.out.println("===== Enrollment Checks =====");
         for (int i = 0; i < checkResults.size(); i++) {
             System.out.println(checkResults.get(i));
