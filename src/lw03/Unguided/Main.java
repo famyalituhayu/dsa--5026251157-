@@ -70,8 +70,7 @@ public class Main {
             }
         }
         scanner.close();
-
-        // ===== Output =====
+        
         System.out.println("===== Enrollment Checks =====");
         for (int i = 0; i < checkResults.size(); i++) {
             System.out.println(checkResults.get(i));
